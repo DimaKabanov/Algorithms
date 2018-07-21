@@ -6,12 +6,6 @@ const findSmallestIndex = (array) => {
 };
 
 const sortingByChoice = (array) => {
-  const arrayLength = array.length;
-
-  if (arrayLength === 0) {
-    return null;
-  }
-
   const iter = (unsortedArray, acc) => {
     if (unsortedArray.length === 0) {
       return acc;
